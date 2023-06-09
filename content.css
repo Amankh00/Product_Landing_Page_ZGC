@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+.heading
+{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: bitter;
+    font-size: larger;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.sec1
+{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  font-size: medium;
+}
+
+.long_last,.Fragrance, .Authentic
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    text-align: justify;
+}
+
+.sec1 i
+{
+    font-size:35px;
+    background-color: #E6F0F2;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.sec1 p
+{
+    text-align: justify;
+    font-size: small;
+    margin-top: -4%;
+    width: 60%
+}
+
+.sec2
+{
+    width: 100%;
+    position: relative;
+}
+
+img
+{ 
+  width:100%;
+  transition: all 3s;
+}
+
+.sec2 .image-container  img
+{
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+}
+
+  
+  .sec2 .image-container {
+    position: relative;
+  }
+  
+  .sec2 .text-container {
+    position: absolute;
+    top: 0;
+    left: 2%;
+    padding: 20px;
+    color: black;
+    width: 50%;
+    margin: 0;
+  }
+  
+ .free_shipping 
+  {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: larger;
+   
+  }
+.free_shipping p::before
+{
+    content: "\2022";
+    color: blue;
+    font-weight: bolder;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  
+}
+.sec4 h1
+{
+  text-align: center;
+  font-size: 24px;
+}
+
+.best_perfume
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    margin: 10px;
+}
+
+.best_perfume span
+{
+  text-decoration: line-through;
+  color: red;
+}
+.sec4 img:hover
+{
+    width: 90%;
+}
+
+.sec4 button
+{
+  background-color: black ;
+  padding: 10px;
+  color: white;
+  margin-bottom: 5%;
+}
+#si2
+{
+  height: 400px;
+}
+
+.Youtube
+{
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  /* height: 100%; */
+  /* gap:10px; */
+}
+
+.Youtube img
+{
+  width:95%;
+  height: 250px;
+}
+#div_thum
+{
+  height: 100%;
+  object-fit: center;
+}
+
+.sec7{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6%;
+  margin-left: 2%;
+  font-size: 25px;
+}
+
+.instaimg
+{
+display: grid;
+grid-template-columns: repeat(3 ,1fr);
+align-items: center;
+justify-content: space-around;
+margin: auto;
+}
+.instaimg img
+{
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  transition: all 3s;
+}
+.instaimg img:hover
+{
+  transform: perspective(800px) rotateY(-33deg) rotateX(3deg);
+}
+
+.sec8
+{
+  background-color:#E6F0F2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Site_logo
+{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.sec8 img
+{
+  width: 40%;
+  margin-left: 30%;
+}
+
+.sec9
+{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: small;
+  gap:10px;
+  margin: 2% 0;
+
+}
+
+
+.sec9_div{
+
+  background: #E6F0F2;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+
+}
+
+.sec9_div p
+{
+  width: 70%;
+  text-align: center;
+  margin:2% auto;
+}
+
+button
+{
+  background-color:black;
+  padding:3px  10px;
+  color: white;
+  margin-bottom: 4%;
+  transition: all 1s;
+}
+button:hover
+{
+  color: red;
+  font-size: 13px;
+}
+
+.sec10
+{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 100%;
+  text-align: left;
+  font-size: small;
+  gap:10px;
+}
+
+.Youtube_review
+{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:10px;
+}
+
+.sec12
+{
+  display: flex;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.sec12id
+{
+ display: grid;
+ grid-template-columns: repeat(6,1fr);
+ width: 100%;
+}
+.sec12id img
+{
+  width: 100%;
+  height:300px;
+}
+
+#camera
+{
+  min-height: 30px;
+  width: 20%;
+  /* height: auto; */
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  top: -15vw;
+  left: 34%;
+  border-radius: 2%;
+  padding: 30px;
+  border: 2px dotted black;
+  font-family: bitter;
+}
+
+.footer
+{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 96%;
+  color: white;
+  background-color: black;
+  padding: 50px 20px;
+  margin-top:-10%; 
+}
+
+.footer p
+{
+  font-size: small;
+}
+
+.footer input
+{
+ padding: 10px 20px;
+  border-radius: 2%;
+}
+
+.footer button
+{
+  display: block;
+  background-color:#27808E ;
+  margin-top: 4%;
+}
+
+@media screen and (max-width:930px) 
+{
+  .footer input
+  {
+   padding:0;
+   border-radius: 2%;
+  }  
+    }
+
+@media screen and (max-width:790px) 
+{
+    .free_shipping
+    {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      margin: auto;
+      text-align: center;
+      margin-top: 5%;
+    }
+    .sec2 .text-container
+    {
+      width: 90%;
+      margin:0;
+      padding: 0;
+    }
+}
+
+@media screen and (max-width:650px) 
+{
+   .footer
+   {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   }
+   #camera
+   {
+    text-align: center;
+    position: relative;
+    top: -40vw;
+    width:45px;
+    font-size: small;
+    left: 35%;
+   }
+   #camera h1
+   {
+    color: #000;
+    font-size: small;
+   }
+}
+
+@media screen and (max-width:510px) 
+{
+  .sec1
+   {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   }
+   .sec2 .text-container
+   {
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+   }
+}
+
+
+@media screen and (max-width:400px) 
+{
+  .best_perfume
+  {
+   display: flex;
+   flex-direction: column;
+   margin-top: 5%;
+  }
+
+  .sec9
+  {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .footer
+  {
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+  }
+  img
+  {
+    width: 100%;
+  }
+}
