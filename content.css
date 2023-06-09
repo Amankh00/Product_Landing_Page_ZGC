@@ -398,6 +398,11 @@ button:hover
     overflow: hidden;
     white-space: nowrap;
    }
+
+   .footer
+   {
+    width: 90%;
+   }
 }
 
 
@@ -409,7 +414,11 @@ button:hover
    flex-direction: column;
    margin-top: 5%;
   }
-
+.Youtube
+{
+  display: flex;
+  flex-direction: column;
+}
   .sec9
   {
     display: grid;
