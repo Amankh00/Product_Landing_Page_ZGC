@@ -301,7 +301,11 @@ button:hover
   border: 2px dotted black;
   font-family: bitter;
 }
-
+#camera a
+{
+  text-decoration: none;
+  color: #000;
+}
 .footer
 {
   display: grid;
