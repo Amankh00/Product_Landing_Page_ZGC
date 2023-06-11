@@ -135,15 +135,38 @@ img
 {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
-  /* height: 100%; */
-  /* gap:10px; */
+  width:88%;
+  margin: auto;
+  gap: 10PX;
+  object-fit: cover;
+  
 }
 
-.Youtube img
+.Youtube>div img
 {
-  width:95%;
-  height: 250px;
+  padding: 1px;
+  box-shadow: 8px 4px 5px  1px black;
 }
+
+.Youtube > div img {
+  padding: 1px;
+  box-shadow: 8px 4px 5px 1px black;
+}
+
+.Youtube > div:nth-child(1) img:hover
+ {
+  padding: 10px;
+  transform: perspective(800px) rotateY(33deg) rotateX(3deg);
+}
+
+.Youtube > div:nth-child(2) img:hover 
+{
+  padding: 10px;
+  transform: perspective(800px) rotateY(-33deg) rotateX(3deg);
+}
+
+
+
 #div_thum
 {
   height: 100%;
@@ -155,33 +178,40 @@ img
   width: 100%;
   flex-direction: column;
   margin: auto;
-  align-items: center;
-  justify-content: center;
-  margin-top: 6%;
-  margin-left: 2%;
+  text-align: center;
   font-size: 25px;
+
 }
 
-.instaimg
+.instaing
 {
 display: grid;
 grid-template-columns: repeat(3 ,1fr);
-align-items: center;
-justify-content: space-around;
 margin: auto;
 }
-.instaimg img
+.instaing img
 {
   width: 80%;
   margin: auto;
   padding: 10px;
   transition: all 3s;
+  margin: auto;
 }
-.instaimg img:hover
+.instaing div:nth-child(1) img:hover
+{
+  transform: perspective(800px) rotateY(33deg) rotateX(3deg);
+  box-shadow: 8px 4px 5px  1px black;
+}
+.instaing div:nth-child(2) img:hover
+{
+  transform: perspective(800px) rotateY(33deg) rotateX(360deg);
+  box-shadow: 8px 4px 5px  1px black;
+}
+.instaing div:nth-child(3) img:hover
 {
   transform: perspective(800px) rotateY(-33deg) rotateX(3deg);
+  box-shadow: 8px 4px 5px  1px black;
 }
-
 .sec8
 {
   background-color:#E6F0F2;
@@ -208,21 +238,20 @@ margin: auto;
 {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  width: 100%;
-  align-items: center;
-  justify-content: center;
+  width: 95%;
   text-align: center;
   font-size: small;
   gap:10px;
-  margin: 2% 0;
+  margin: 3% auto;
 
 }
 
 
-.sec9_div{
+.sec9_div
+{
 
   background: #E6F0F2;
-  width: 100%;
+  width: 99%;
   height: 100%;
   text-align: center;
   margin: auto;
@@ -234,6 +263,16 @@ margin: auto;
   width: 70%;
   text-align: center;
   margin:2% auto;
+}
+.sec9 div:nth-child(1) img:hover
+{
+  transform: perspective(800px) rotateY(-33deg) rotateX(3deg);
+  box-shadow: 8px 4px 5px  1px black;
+}
+.sec9 div:nth-child(3) img:hover
+{
+  transform: perspective(800px) rotateY(33deg) rotateX(3deg);
+  box-shadow: 8px 4px 5px  1px black;
 }
 
 button
@@ -254,10 +293,17 @@ button:hover
 {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  width: 100%;
+  width: 97%;
+  margin: auto;
   text-align: left;
   font-size: small;
   gap:10px;
+}
+
+.sec11
+{
+  width: 85%;
+  margin: auto;
 }
 
 .Youtube_review
@@ -265,13 +311,26 @@ button:hover
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap:10px;
+  width: 96%;
+  margin:2% auto;
+}
+.Youtube_review div:nth-child(odd) img:hover
+{
+  transform: perspective(800px) rotateY(33deg) rotateX(6deg);
+  box-shadow: 8px 4px 5px  1px black;
 }
 
+.Youtube_review div:nth-child(even) img:hover
+{
+  transform: perspective(800px) rotateY(-36deg) rotateX(6deg);
+  box-shadow: 8px 4px 5px  1px black;
+}
 .sec12
 {
   display: flex;
   margin-top: 5%;
-  width: 100%;
+  width: 97%;
+  margin: auto;
 }
 
 .sec12id
@@ -282,10 +341,20 @@ button:hover
 }
 .sec12id img
 {
-  width: 100%;
-  height:300px;
+  width: 95%;
+  height:260px;
 }
 
+.sec12id div:nth-child(even) img:hover
+{
+  transform: perspective(800px) rotateY(33deg) rotateX(6deg);
+  box-shadow: 8px 4px 5px  1px black;
+}
+.sec12id div:nth-child(odd) img:hover
+{
+  transform: perspective(800px) rotateY(-33deg) rotateX(6deg);
+  box-shadow: 8px 4px 5px  1px black;
+}
 #camera
 {
   min-height: 30px;
